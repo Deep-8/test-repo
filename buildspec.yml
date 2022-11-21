@@ -8,6 +8,5 @@ phases:
     commands:
     - echo "Deploying to the ec2 " 
   artifacts:
-  type: zip
-  paths:
-    - '*'
+  files:
+    - codepipeline-us-east-1-869034269073/pipeline2/
