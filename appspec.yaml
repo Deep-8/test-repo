@@ -1,0 +1,16 @@
+version: 0.0
+
+os: linux
+
+files:
+  -destination: /tmp
+
+hooks:
+  ApplicationStop:
+    - location: stop-process.sh
+      timeout: 180
+      runas: root
+  ApplicationStart:
+    - location: start-process.sh
+      timeout: 180
+      runas: root
