@@ -9,6 +9,6 @@ artifacts:
   files:
     - target/artifact_name.jar
     - appspec.yml
-    - scripts/start-process.sh
-    - scripts/stop-process.sh
+    - start-process.sh
+    - stop-process.sh
   discard-paths: yes
