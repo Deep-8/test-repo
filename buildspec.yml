@@ -7,4 +7,6 @@ phases:
   post_build:
     commands:
     - echo "Deploying to the ec2 " 
-
+  artifacts:
+  paths:
+    - '*'
