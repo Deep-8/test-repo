@@ -6,6 +6,5 @@ phases:
     - echo "This is build phase..."
   post_build:
     commands:
-    - echo "Deploying to the ec2 "
-    - aws ec2 
+    - echo "Deploying to the ec2 " 
 
